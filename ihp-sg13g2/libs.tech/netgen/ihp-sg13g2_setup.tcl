@@ -60,13 +60,13 @@ foreach dev $devices {
 #-------------------------------------------
 
 set devices {}
-lappend devices rm1
-lappend devices rm2
-lappend devices rm3
-lappend devices rm4
-lappend devices rm5
-lappend devices rm6
-lappend devices rm7
+lappend devices res_metal1
+lappend devices res_metal2
+lappend devices res_metal3
+lappend devices res_metal4
+lappend devices res_metal5
+lappend devices res_topmetal1
+lappend devices res_topmetal2
 
 foreach dev $devices {
     if {[lsearch $cells1 $dev] >= 0} {
